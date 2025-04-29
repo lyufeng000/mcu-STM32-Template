@@ -1,0 +1,3 @@
+D:/Code/STM32 SPL/template/build/CMakeFiles/Hello.elf.dir
+D:/Code/STM32 SPL/template/build/CMakeFiles/edit_cache.dir
+D:/Code/STM32 SPL/template/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Hello.elf.dir/objects.a
+C:\PROGRA~2\mingw64\bin\ar.exe qc CMakeFiles\Hello.elf.dir/objects.a @CMakeFiles\Hello.elf.dir\objects1.rsp
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -Wall -O2 -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD  -TD:/Code/STM32 SPL/template/Start/stm32f103.ld -nostartfiles -Wl,--whole-archive CMakeFiles\Hello.elf.dir/objects.a -Wl,--no-whole-archive -o Hello.elf.elf -Wl,--out-implib,libHello.elf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Hello.elf.dir\linkLibs.rsp
