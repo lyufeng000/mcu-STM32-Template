@@ -35,7 +35,7 @@ void Init_Timer(void) {
 
 void TIM2_IRQHandler(void) {
 	if(TIM_GetITStatus(TIM2, TIM_IT_Update) == SET) {
-		toggle(GPIOA, GPIO_Pin_6);
+		GPIO_Toggle(GPIOA, GPIO_Pin_6);
 		TIM_ClearITPendingBit(TIM2, TIM_IT_Update);
 	}
 }

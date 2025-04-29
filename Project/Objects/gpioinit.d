@@ -2,7 +2,7 @@
 .\objects\gpioinit.o: ..\Hardware\gpioInit.h
 .\objects\gpioinit.o: ..\Start\stm32f10x.h
 .\objects\gpioinit.o: ..\Start\core_cm3.h
-.\objects\gpioinit.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gpioinit.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\gpioinit.o: ..\Start\system_stm32f10x.h
 .\objects\gpioinit.o: ..\User\stm32f10x_conf.h
 .\objects\gpioinit.o: ..\Library\stm32f10x_adc.h

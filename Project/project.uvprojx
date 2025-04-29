@@ -555,6 +555,16 @@
               <FileType>1</FileType>
               <FilePath>..\Hardware\gpioInit.c</FilePath>
             </File>
+            <File>
+              <FileName>EXTI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Hardware\EXTI.c</FilePath>
+            </File>
+            <File>
+              <FileName>EXTI.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Hardware\EXTI.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

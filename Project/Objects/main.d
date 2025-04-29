@@ -2,7 +2,7 @@
 .\objects\main.o: ..\User\main.h
 .\objects\main.o: ..\Start\stm32f10x.h
 .\objects\main.o: ..\Start\core_cm3.h
-.\objects\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\main.o: ..\Start\system_stm32f10x.h
 .\objects\main.o: ..\User\stm32f10x_conf.h
 .\objects\main.o: ..\Library\stm32f10x_adc.h
@@ -31,3 +31,5 @@
 .\objects\main.o: ..\Library\misc.h
 .\objects\main.o: ..\System\Timer.h
 .\objects\main.o: ..\Hardware\gpioInit.h
+.\objects\main.o: ..\System\Delay.h
+.\objects\main.o: ..\Hardware\EXTI.h
