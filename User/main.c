@@ -22,7 +22,6 @@
 
 #include "main.h"
 
-int status = 0;
 
 int main() {
 	
