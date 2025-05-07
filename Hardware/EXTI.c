@@ -8,6 +8,7 @@
 #define GPIO_Mode 				GPIO_Mode_IPU
 #define Line 					EXTI_Line12
 #define IRQChannel 				EXTI15_10_IRQn
+//#define IRQChannel				EXTI1_IRQn
 #define PreemptionPriority 		1
 #define SubPriority 			1
 
@@ -52,7 +53,7 @@ void Init_Group(uint32_t NVIC_PriorityGroup) {
 void EXTI0_IRQHandler(void) {
 	if(EXTI_GetITStatus(EXTI_Line0) == SET) {
 		
-		EXTI_ClearITPendingBit(EXTI_Line12);
+		EXTI_ClearITPendingBit(EXTI_Line0);
 	}
 }
 
@@ -60,7 +61,7 @@ void EXTI0_IRQHandler(void) {
 void EXTI1_IRQHandler(void) {
 	if(EXTI_GetITStatus(EXTI_Line1) == SET) {
 		
-		EXTI_ClearITPendingBit(EXTI_Line12);
+		EXTI_ClearITPendingBit(EXTI_Line1);
 	}
 }
 
@@ -68,7 +69,7 @@ void EXTI1_IRQHandler(void) {
 void EXTI2_IRQHandler(void) {
 	if(EXTI_GetITStatus(EXTI_Line2) == SET) {
 		
-		EXTI_ClearITPendingBit(EXTI_Line12);
+		EXTI_ClearITPendingBit(EXTI_Line2);
 	}
 }
 
@@ -76,7 +77,7 @@ void EXTI2_IRQHandler(void) {
 void EXTI3_IRQHandler(void) {
 	if(EXTI_GetITStatus(EXTI_Line3) == SET) {
 		
-		EXTI_ClearITPendingBit(EXTI_Line12);
+		EXTI_ClearITPendingBit(EXTI_Line3);
 	}
 }
 
@@ -84,7 +85,7 @@ void EXTI3_IRQHandler(void) {
 void EXTI4_IRQHandler(void) {
 	if(EXTI_GetITStatus(EXTI_Line4) == SET) {
 		
-		EXTI_ClearITPendingBit(EXTI_Line12);
+		EXTI_ClearITPendingBit(EXTI_Line4);
 	}
 }
 
